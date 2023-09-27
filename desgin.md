@@ -12,6 +12,6 @@
 <expr>   ::= <term> [ ('+'|'-') <term> ]*
 <term>   ::= <factor> [ ('*'|'/') <factor> ]*
 <factor> ::= <number> | '(' <expr> ')'
-<number> :== １つ以上の数字
+<number> :== [0-9]+
 
 ### 
